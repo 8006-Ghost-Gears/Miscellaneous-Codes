@@ -1,0 +1,60 @@
+Okay, so you may need to just open the simulation through the terminal window temporarily. I think this is a bug in WPILib that I need to look into
+
+
+To do this, just open the folder where the code is, use "Shift+right click" to open the prompt window and it should have the
+option for "Open PowerShell Window Here"
+
+From here, type in "./gradlew simulateJava" and it should launch.
+
+Currently, the simulated code is using joystick 4 to control the robvot, which is linked to the keyboard's WASD keys.
+
+You should be able to control it in TeleOP mode like this, but I think I can't do it remotely
+
+The wheels spinning in place is probably just a simulation issue. It will be hard to fix it in simulation without a 
+physical representation to verify that it matches, so just ignore it for now.
+
+This should just help you make sure that the logic of the Swerve code works (Can mvoe backwards/forwards, left/right, straife, spin in place)
+, so as long as that works, you should be fine.
+
+I'm pretty sure that my coach had bought neo motors for the actual representation but that should be coming in like a week. So would we be able to work on that anytime soon?
+
+I'm okay if the simulation doesnt work with neos.
+
+Sure, once you have your swerve drivetrain built, you can test the code on that to see if it works. If it acts wildly, then I may be able to stop by and help you.
+
+Are you guys going to run your swerve robot for Beach Blitz (your off-season event)? Or will you use the robot you've arleady built?
+
+When is Beach Blitz?
+
+The first weekend of November, I saw that your team was on the invite list
+
+Oh ya, I'm pretty sure were doing that. I think we'll be using our robot thats already built.
+
+Okay. Do you have anything else you want me to help you out with, or are you good for now?
+
+For now I'm good, just for later I would like to know I how I can make swerve drive for neos if thats okay.
+
+
+The code is already set up for Neo motors
+
+For both neo and falcon?
+
+So you can only choose one or the other. The RevLib and WPILib sim branches are set up to use Neos right now. You will still need to
+tune the constants in order for it to work properly
+
+Oh yes, I understand.
+
+Thanks for the help, its great that it works!
+
+No problem! See you soon, I got to back to my team's meeting right now
+
+Alright, thanks for the help once again and I'll see you later.
+
+Oh, if you are unconfortable with TeamViewer allowing access, you can set it to not launch on startup. Otherwise the ID and passwords are ramdomized on boot.
+
+Oh okay, thats good.
+
+Alright see you later. Thx
+
+Bye!
+
